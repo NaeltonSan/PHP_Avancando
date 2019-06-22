@@ -18,10 +18,10 @@
         echo " Planeta não informado";
     }
 
-    echo "<br>";
-    // outra forma de validação do GET (php 7.0+)
-    $cor = $_GET['cor'] ?? "Cor não informada!";
+    // echo "<br>";
+    // // outra forma de validação do GET (php 7.0+)
+    // $cor = $_GET['cor'] ?? "Cor não informada!";
 
-    echo $cor;
+    // echo $cor;
     //coalesce
 ?>
